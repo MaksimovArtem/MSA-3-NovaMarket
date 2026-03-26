@@ -1,0 +1,10 @@
+Директория содержит:
+
+1) NGINX конфиги для:
+    - rate_limiting
+    - rate_limiting + circuit_breaker
+    - rate_limiting + circuit_breaker + моковые апстримы
+2) Скрипты для locust
+3) Скриншоты выполнения скриптов:
+    - для rate_limiting скрин ошибок из NGINX(100 и 60 - значения burst для веб и мобайл соответственно)
+    - для circuit-breaker скрин логов из скрипта - логировал пршедшие сообщения об использованиии fallback'a
